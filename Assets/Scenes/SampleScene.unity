@@ -126,6 +126,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 223974226}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &40919615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40919614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcda31024c1f475aa34fced3f023086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &40919618 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8748996743568786802, guid: dc7c2572e981749ea98c353bfef5800a,
@@ -323,6 +335,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackModel
       objectReference: {fileID: 0}
+    - target: {fileID: 8748996743568786802, guid: dc7c2572e981749ea98c353bfef5800a,
+        type: 3}
+      propertyPath: BlendShapeAvatar
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cdc73815c4e9433fb645837ce9e99be,
+        type: 2}
     - target: {fileID: 7576723980665764989, guid: dc7c2572e981749ea98c353bfef5800a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -383,12 +401,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cd7623d39f81842df93bc40b0035dd68, type: 2}
-    - target: {fileID: 8748996743568786802, guid: dc7c2572e981749ea98c353bfef5800a,
-        type: 3}
-      propertyPath: BlendShapeAvatar
-      value: 
-      objectReference: {fileID: 11400000, guid: 1cdc73815c4e9433fb645837ce9e99be,
-        type: 2}
     - target: {fileID: 1382937819117282719, guid: dc7c2572e981749ea98c353bfef5800a,
         type: 3}
       propertyPath: UpdateType
