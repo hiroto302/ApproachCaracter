@@ -65,9 +65,13 @@ public class Bust : MonoBehaviour
     public void Punch()
     {
         cameraRig.GetComponent<MoveController>().PunchPower();  //パンチ動作に合わせて後方にふっ飛ぶ,初動は早く飛ぶ
+        OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.RTouch);  //振動の追加
+        OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.LTouch);
     }
     public void SecondPunch()  //少し減速
     {
         cameraRig.GetComponent<MoveController>().secondPunchPower();
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
     }
 }
