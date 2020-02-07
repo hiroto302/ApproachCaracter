@@ -1,4 +1,4 @@
-# 作品名 : ApproachCaracter
+# 作品名 : ApproachCaracter_VR
 VRアプリ　オキュラスクエスト対応
 
 ## 概要
